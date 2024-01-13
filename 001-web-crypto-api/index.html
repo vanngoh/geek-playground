@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <h2>PBKDF2 Crypto API demo</h2>
+    <input id="pbkdf2-message" placeholder="Message to encrypt" />
+    <button class="pbkdf2 encrypt-button" onClick="encrypt()">Encrypt</button>
+    <br /><br />
+
+    <span style="font-weight: 700">Ciphertext:</span>
+    <span class="ciphertext"></span>
+    <br /><br />
+
+    <button
+      class="pbkdf2 decrypt-button"
+      onClick="decrypt(document.querySelector('.ciphertext').textContent)">
+      Decrypt
+    </button>
+    <br /><br />
+
+    <span style="font-weight: 700">Plaintext:</span>
+    <span class="plaintext"></span>
+  </body>
+  <script>
+    const ciphertextValue = document.querySelector('.ciphertext');
+    ciphertextValue.textContent = '';
+    const plaintextValue = document.querySelector('.plaintext');
+    plaintextValue.textContent = '';
+  </script>
+</html>
