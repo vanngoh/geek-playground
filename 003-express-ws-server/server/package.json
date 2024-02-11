@@ -1,0 +1,21 @@
+{
+  "name": "express-ws-server",
+  "version": "1.0.0",
+  "description": "A server which can serve both RESTful APIs & Websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "ws"
+  ],
+  "type": "module",
+  "author": "Vann Goh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  }
+}
