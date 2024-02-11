@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Express WebSocket</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        class="shadow"
+        id="username"
+        placeholder="Your username" />
+      <div class="message shadow">
+        <div id="message-box"></div>
+      </div>
+      <div class="input">
+        <textarea
+          placeholder="Your message"
+          type="text"
+          class="shadow"
+          id="message-input"></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+      <button id="exit">Close</button>
+    </div>
+  </body>
+</html>
+<script src="./websocket.js"></script>
