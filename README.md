@@ -1,6 +1,6 @@
 # Geek's Playground
 
-A single repo for trying something new.
+A single repo for geek to play around on weekends.
 
 1. [Encryption & Decryption in browser](/001-web-crypto-api)
 2. [Optimized Exponentiation with Bit-Manipulation](/002-bit-manipulation-pow/)
